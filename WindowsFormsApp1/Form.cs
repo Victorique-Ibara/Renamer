@@ -48,8 +48,9 @@ namespace WindowsFormsApp1
             string renameText = tbxFileName.Text;
             for(int x = 0; x < files.Count(); x++)
             {
-                String fileName = files[x].Substring(0, files[x].LastIndexOf("\\"));
-                System.IO.File.Move(files[x], fileName + "\\" + renameText + " " + x);
+                string fileName = files[x].Substring(0, files[x].LastIndexOf("\\"));
+                string extension = files[x].Substring(files[x].LastIndexOf("."));
+                System.IO.File.Move(files[x], fileName + "\\" + renameText + " " + x + extension);
                 prgFiles.Value = (x+1)/files.Count() * 100;
                 tbxProgress.Text = "changing name of " + files[x].Substring(fileName.LastIndexOf("\\") + 1);
             }
