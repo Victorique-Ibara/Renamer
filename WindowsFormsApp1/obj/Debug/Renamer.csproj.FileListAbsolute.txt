@@ -12,3 +12,17 @@ C:\Users\Vic\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Renamer.ex
 C:\Users\Vic\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Renamer.application
 C:\Users\Vic\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Renamer.exe
 C:\Users\Vic\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Renamer.pdb
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\bin\Debug\Renamer.exe.config
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\bin\Debug\Renamer.exe.manifest
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\bin\Debug\Renamer.application
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\bin\Debug\Renamer.exe
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\bin\Debug\Renamer.pdb
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.csprojAssemblyReference.cache
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Renamer.resources
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.Properties.Resources.resources
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.csproj.GenerateResource.cache
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.csproj.CoreCompileInputs.cache
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.exe.manifest
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.application
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.exe
+C:\Users\Vic\Source\Repos\Renamer\WindowsFormsApp1\obj\Debug\Renamer.pdb
