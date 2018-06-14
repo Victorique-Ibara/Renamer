@@ -38,8 +38,9 @@
             this.btnClearList = new System.Windows.Forms.Button();
             this.prgFiles = new System.Windows.Forms.ProgressBar();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.tbxProgress = new System.Windows.Forms.TextBox();
             this.cbxImageResolution = new System.Windows.Forms.CheckBox();
+            this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
+            this.tbxProgress = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbxFiles
@@ -118,14 +119,6 @@
             this.openFileDialog.FileName = "openFileDialog1";
             this.openFileDialog.Multiselect = true;
             // 
-            // tbxProgress
-            // 
-            this.tbxProgress.Location = new System.Drawing.Point(13, 388);
-            this.tbxProgress.Name = "tbxProgress";
-            this.tbxProgress.ReadOnly = true;
-            this.tbxProgress.Size = new System.Drawing.Size(239, 20);
-            this.tbxProgress.TabIndex = 10;
-            // 
             // cbxImageResolution
             // 
             this.cbxImageResolution.AutoSize = true;
@@ -136,6 +129,21 @@
             this.cbxImageResolution.Text = "Image Resolution";
             this.cbxImageResolution.UseVisualStyleBackColor = true;
             // 
+            // backgroundWorker
+            // 
+            this.backgroundWorker.WorkerReportsProgress = true;
+            this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker_DoWork);
+            this.backgroundWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker_ProgressChanged);
+            this.backgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker_RunWorkerCompleted);
+            // 
+            // tbxProgress
+            // 
+            this.tbxProgress.Location = new System.Drawing.Point(13, 388);
+            this.tbxProgress.Name = "tbxProgress";
+            this.tbxProgress.ReadOnly = true;
+            this.tbxProgress.Size = new System.Drawing.Size(239, 20);
+            this.tbxProgress.TabIndex = 12;
+            // 
             // Renamer
             // 
             this.AcceptButton = this.btnStart;
@@ -143,8 +151,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(264, 532);
-            this.Controls.Add(this.cbxImageResolution);
             this.Controls.Add(this.tbxProgress);
+            this.Controls.Add(this.cbxImageResolution);
             this.Controls.Add(this.prgFiles);
             this.Controls.Add(this.btnClearList);
             this.Controls.Add(this.lblFileName);
@@ -176,8 +184,9 @@
         private System.Windows.Forms.Button btnClearList;
         private System.Windows.Forms.ProgressBar prgFiles;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
-        private System.Windows.Forms.TextBox tbxProgress;
         private System.Windows.Forms.CheckBox cbxImageResolution;
+        private System.ComponentModel.BackgroundWorker backgroundWorker;
+        private System.Windows.Forms.TextBox tbxProgress;
     }
 }
 
