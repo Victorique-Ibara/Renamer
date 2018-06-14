@@ -39,6 +39,7 @@
             this.prgFiles = new System.Windows.Forms.ProgressBar();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.tbxProgress = new System.Windows.Forms.TextBox();
+            this.cbxImageResolution = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lbxFiles
@@ -125,6 +126,16 @@
             this.tbxProgress.Size = new System.Drawing.Size(239, 20);
             this.tbxProgress.TabIndex = 10;
             // 
+            // cbxImageResolution
+            // 
+            this.cbxImageResolution.AutoSize = true;
+            this.cbxImageResolution.Location = new System.Drawing.Point(15, 504);
+            this.cbxImageResolution.Name = "cbxImageResolution";
+            this.cbxImageResolution.Size = new System.Drawing.Size(108, 17);
+            this.cbxImageResolution.TabIndex = 11;
+            this.cbxImageResolution.Text = "Image Resolution";
+            this.cbxImageResolution.UseVisualStyleBackColor = true;
+            // 
             // Renamer
             // 
             this.AcceptButton = this.btnStart;
@@ -132,6 +143,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(264, 532);
+            this.Controls.Add(this.cbxImageResolution);
             this.Controls.Add(this.tbxProgress);
             this.Controls.Add(this.prgFiles);
             this.Controls.Add(this.btnClearList);
@@ -165,6 +177,7 @@
         private System.Windows.Forms.ProgressBar prgFiles;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.TextBox tbxProgress;
+        private System.Windows.Forms.CheckBox cbxImageResolution;
     }
 }
 
